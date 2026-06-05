@@ -1,0 +1,2 @@
+Print the distinguished greeting
+print("Hello world!")
