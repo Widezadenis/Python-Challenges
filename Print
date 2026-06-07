@@ -1,2 +1,6 @@
 Print the distinguished greeting
 print("Hello world!")
+
+Create and print an integer
+my_integer_var = 10
+print('Integer:',my_integer_var)
