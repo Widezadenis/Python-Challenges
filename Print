@@ -8,3 +8,7 @@ print('Integer:',my_integer_var)
 Create and print a float
 my_float_var = 4.5
 print('Float:',my_float_var)
+
+Create and print a string
+my_string_var = 'hello'
+print('String:',my_string_var)
