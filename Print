@@ -4,3 +4,7 @@ print("Hello world!")
 Create and print an integer
 my_integer_var = 10
 print('Integer:',my_integer_var)
+
+Create and print a float
+my_float_var = 4.5
+print('Float:',my_float_var)
