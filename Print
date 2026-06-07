@@ -12,3 +12,7 @@ print('Float:',my_float_var)
 Create and print a string
 my_string_var = 'hello'
 print('String:',my_string_var)
+
+Create and print a boolean
+my_boolean_var = True
+print('Boolean:',my_boolean_var)
