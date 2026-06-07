@@ -20,3 +20,7 @@ print('Boolean:',my_boolean_var)
 Create and print a set unordered collection of unique element
 my_set_var = {7, 'hello', 8.5}
 print('Set:',my_set_var)
+
+Create and print a data dictionary
+my_dictionary_var = {'name': 'Wideza', 'age': 25}
+print('Dictionary:',my_dictionary_var)
