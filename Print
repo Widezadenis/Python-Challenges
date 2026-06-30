@@ -24,3 +24,10 @@ print('Set:',my_set_var)
 Create and print a data dictionary
 my_dictionary_var = {'name': 'Wideza', 'age': 25}
 print('Dictionary:',my_dictionary_var)
+
+
+Assign the theater's unique identification to a variable named theater_id.
+Display the contents of the theater_id variable
+
+theater_id = 'b79cn10k'
+print(theater_id)
