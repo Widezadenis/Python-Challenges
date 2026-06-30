@@ -31,3 +31,9 @@ Display the contents of the theater_id variable
 
 theater_id = 'b79cn10k'
 print(theater_id)
+
+Create a variable called ticket_type and assign it a value of "Adult"
+Display the contents of the ticket_type variable
+
+ticket_type = 'Adult'
+print(ticket_type)
