@@ -7,6 +7,5 @@ type(adult_tickets_sold)
 Convert the data saved in the adult_tickets_sold variable from a float to an integer. Reassign the result back to the adult_tickets_sold variable.
 Check the data type of adult_tickets_sold
 
-adult_tickets_sold = 51
+adult_tickets_sold = int(adult_tickets_sold)
 type(adult_tickets_sold)
-adult_tickets_sold
