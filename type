@@ -1,5 +1,5 @@
 Create a variable called adult_tickets_sold that represents the current number of "adult" tickets sold and assign it a value of 59.0.
 Check the data type of adult_tickets_sold
 
-adult_tickets_sold = 50
+adult_tickets_sold = 50.9
 type(adult_tickets_sold)
