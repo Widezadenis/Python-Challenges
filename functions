@@ -13,3 +13,14 @@ def total_sales(n):
     total_sales = n * 7.99
     # Return a value
     return total_sales
+
+Create a function that accepts two values
+Update your total_sales function so it accepts two parameters:
+
+price for the price per ticket
+num_tickets for the total number of tickets.
+Return the product of the two arguments. Use the Python round() function to round the returned value to two decimal places. Refer to the round() Python documentation for more information regarding this function.
+def total_sales(price, num_tickets):
+    rounded = round(price * num_tickets)
+    # Return a value
+    return rounded
