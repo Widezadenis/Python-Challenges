@@ -12,3 +12,4 @@ def send_email(num_visits, visits_email) :
 
 The theater is offering a promotion where customers who have visited the theater more than a designated number of times will also receive a coupon with their email. Update the function that you created above to include additional logical branching.
 Include an additional argument visits_coupon that represents the minimum number of visits the customer must have made for them to receive a coupon with their email.
+
