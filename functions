@@ -6,3 +6,10 @@ def total_sales():
 
     # Return a value
     return
+
+Add a parameter and calculations to the function
+In this task, update the total_sales function so it returns the value of the number of tickets n multiplied by the price 7.99
+def total_sales(n):
+    total_sales = n * 7.99
+    # Return a value
+    return total_sales
