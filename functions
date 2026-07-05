@@ -1,0 +1,8 @@
+Calculate how much the theater has made in sales so far.
+In the following cell, analyze the function named total_sales and make note of your observations.
+
+# Define a function named `total_sales`
+def total_sales():
+
+    # Return a value
+    return
