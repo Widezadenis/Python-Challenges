@@ -1,0 +1,11 @@
+Define a comparator function
+Define a function called send_email that accepts the following arguments:
+num_visits - the number of times a customer has visited the theater
+visits_email - the minimum number of visits the customer must have made for them to receive a marketing email
+The function must print either: Send email. or Not enough visits.
+
+def send_email(num_visits, visits_email) :
+    if num_visits < 5 and visits_email <= 5:
+        print("Not enouegh visits")
+    else:
+        print("Send email")
