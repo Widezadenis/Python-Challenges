@@ -24,3 +24,13 @@ def total_sales(price, num_tickets):
     rounded = round(price * num_tickets)
     # Return a value
     return rounded
+
+Test the function with different values
+[IN]  total_sales(16.99, 1232)
+[OUT] 20932
+
+[IN]  total_sales(10.50, 1472)
+[OUT] 15456
+
+[IN]  total_sales(5.00, 349)
+[OUT] 1745
