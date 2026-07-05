@@ -21,16 +21,16 @@ price for the price per ticket
 num_tickets for the total number of tickets.
 Return the product of the two arguments. Use the Python round() function to round the returned value to two decimal places. Refer to the round() Python documentation for more information regarding this function.
 def total_sales(price, num_tickets):
-    rounded = round(price * num_tickets)
+    rounded = round(price * num_tickets, 2)
     # Return a value
     return rounded
 
 Test the function with different values
 [IN]  total_sales(16.99, 1232)
-[OUT] 20932
+[OUT] 20931.68
 
 [IN]  total_sales(10.50, 1472)
-[OUT] 15456
+[OUT] 15456.0
 
 [IN]  total_sales(5.00, 349)
-[OUT] 1745
+[OUT] 1745.0
