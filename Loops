@@ -1,0 +1,3 @@
+Create a variable called candy_purchased that will act as a counter. Initialize it with a starting value of 0.
+Write a while loop that will continue iterating until 5 candies have been purchased.
+Each iteration of the loop must print 'Candy purchased: {number}' and increment candy_purchased by one.
