@@ -5,9 +5,7 @@ Each iteration of the loop must print 'Candy purchased: {number}' and increment 
 candy_purchased = 0 
 
 while candy_purchased <= 5:
-    print('Candy purchased: ' + str(candy_purchased)) 
-    number = input()                            
-    number = int(number)   
+    print('Candy purchased: ' + str(candy_purchased))   
     candy_purchased += 1 
 
 Write a while loop where candy_purchased begins at 0 and stops after 100 purchases have been made. Your code must:
@@ -15,3 +13,4 @@ Increment candy_purchased by one with each iteration
 Print 'Candy purchased: {number}' only when a multiple of 10 purchases have been made
 
 candy_purchased = 0
+
