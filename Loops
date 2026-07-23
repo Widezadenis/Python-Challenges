@@ -46,3 +46,17 @@ while mins >= 0:
         print(mins)
     mins = mins - 1 #decrements mins
     sleep(1)
+
+Define a function called score_counter that accepts the following argument:
+score_list - a list of customer-submitted scores, where each score is an integer, 1-10
+The function must iterate over the scores in score_list and bin them into three bins:
+Negative (scores of 1-5)
+Neutral (scores of 6-8)
+Positive (scores of 9-10)
+The output of the function must be three statements, each on its own line:
+
+'Negative: {number_of_negative_scores}'
+'Neutral: {number_of_neutral_scores}'
+'Positive: {number_of_positive_scores}'
+
+
