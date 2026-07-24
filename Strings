@@ -30,3 +30,9 @@ def zip_checker(zipcode): # defines function
 
 Extract the seven-character store ID from the end of url and assign the result to a variable called id.
 Print the contents of id.
+
+url = "https://exampleURL1.com/r626c36"
+
+id = url[-7:]
+
+print(id)
