@@ -99,3 +99,13 @@ Write a function called purchases_100 that accepts the following argument:
 
 sales - a list of lists where each inner list contains the prices of items purchased by a unique customer.
 The function must return the number of customers whose purchases summed to $100 or more.
+
+def purchases_100(sales): 
+    count = 0
+    for customers in sales: 
+        customer_total = 0
+        for purchase in customer:
+             customer_total += purchase
+        if customer_total >= 100:
+            count += 1
+        return count
