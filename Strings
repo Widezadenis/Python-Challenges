@@ -1,1 +1,7 @@
+Convert store_id to a string and store the result in the same variable.
+Confirm the type of store_id after the conversion.
 
+store_id = 1101
+
+store_id = str(store_id)
+print(type(store_id))
