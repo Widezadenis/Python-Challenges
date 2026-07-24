@@ -36,3 +36,24 @@ url = "https://exampleURL1.com/r626c36"
 id = url[-7:]
 
 print(id)
+
+url = 'https://exampleURL1.com/r626c36'
+
+### YOUR CODE HERE ###
+def url_checker(url):
+    url = url.split('/')
+    protocol = url[0]
+    store_id = url[-1]
+    # If both protocol and store_id bad
+    if protocol != 'https:' and len(store_id) != 7:
+        print(f'{protocol} is an invalid protocol.',
+            f'\n{store_id} is an invalid store ID.')
+    # If just protocol bad
+    elif protocol != 'https:':
+        print(f'{protocol} is an invalid protocol.')
+    # If just store_id bad
+    elif len(store_id) != 7:
+        print(f'{store_id} is an invalid store ID.')
+    # If all ok
+    else:
+        return store_id
