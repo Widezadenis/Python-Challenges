@@ -86,3 +86,7 @@ The output of the function must be two statements, each on its own line:
 '{number_of_unverified_ids} of {number_of_feedback_ids} IDs unverified.'
 '{percent} unverified.'
 
+Write a function called purchases_100 that accepts the following argument:
+
+sales - a list of lists where each inner list contains the prices of items purchased by a unique customer.
+The function must return the number of customers whose purchases summed to $100 or more.
