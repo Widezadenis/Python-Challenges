@@ -75,3 +75,14 @@ def score_counter(score_list):
     print('Negative:', negative_scores)
     print('Neutral:', neutral_scores)
     print('Positive:', positive_scores)
+
+
+Define a function called id_validator that takes two lists as arguments:
+
+verified_ids - a list containing IDs of verified customers
+feedback_ids - a list containing unique IDs of all posters of feedback scores
+The output of the function must be two statements, each on its own line:
+
+'{number_of_unverified_ids} of {number_of_feedback_ids} IDs unverified.'
+'{percent} unverified.'
+
