@@ -27,3 +27,6 @@ def zip_checker(zipcode): # defines function
         else:
             return('Invalid ZIP Code.') 
     return ('Invalid ZIP Code.')  
+
+Extract the seven-character store ID from the end of url and assign the result to a variable called id.
+Print the contents of id.
