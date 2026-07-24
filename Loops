@@ -59,4 +59,19 @@ The output of the function must be three statements, each on its own line:
 'Neutral: {number_of_neutral_scores}'
 'Positive: {number_of_positive_scores}'
 
+def score_counter(score_list):
+    negative_scores = 0  
+    neutral_scores = 0
+    positive_scores = 0
 
+    for score in score_list:
+        if score >= 9:
+            positive_scores += 1
+        elif score >= 6:
+            neutral_scores += 1
+        else:
+            negative_scores += 1
+
+    print('Negative:', negative_scores)
+    print('Neutral:', neutral_scores)
+    print('Positive:', positive_scores)
