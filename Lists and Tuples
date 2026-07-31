@@ -41,3 +41,11 @@ for state, county in state_county_tuples:
     if state=='California':
         ca_counties.append(county)
 ca_counties
+
+Now, use a list comprehension to accomplish the same thing as what you did in Task 3a.
+In a list comprehension, unpack each tuple in state_county_tuples and, if the state in the tuple is California, add the corresponding county to the list comprehension.
+Assign the result to a variable called ca_counties.
+Print ca_counties.
+
+ca_counties = [county for (state, county) in state_county_tuples if state=='California']
+ca_counties
