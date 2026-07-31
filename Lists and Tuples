@@ -11,3 +11,6 @@ Create a new list of tuples, where each tuple contains a pair of state name and 
 Assign the new list to a variable called state_county_tuples.
 Print the result
 
+state_county_tuples = zip(state_names,county_names)
+print(list(new_list))
+
