@@ -23,8 +23,9 @@ Create a new list of tuples, where each tuple contains a pair of state name and 
 Assign the new list to a variable called state_county_zipped.
 Check that state_county_zipped is the same as state_county_tuples.
 
-state_county_zipped  = zip(state_names, county_names)
+state_county_zipped  = list(zip(state_names, county_names))
 
-print(state_county_zipped)
-print(list(state_county_zipped))
+state_county_zipped == state_county_tuples
+
+
 
