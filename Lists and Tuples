@@ -1,0 +1,8 @@
+In this task, assign two variables:
+
+state_names - a list of each state in the state_name column in the table above, in order, as strings
+county_names - a list of each county in the county_name column in the table above, in order, as strings
+
+state_names = [Arizona, California, California, Kentucky, Louisiana]
+county_names = [Maricopa, Alameda, Sacramento, Jefferson, East Baton Rouge]
+
