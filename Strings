@@ -58,7 +58,6 @@ print:
 If both the protocol and the store ID are valid, return the store ID.
 In the above cases, {protocol} is a string of the protocol and {store_id} is a string of the store ID.
 
-### YOUR CODE HERE ###
 def url_checker(url):
     url = url.split('/')
     protocol = url[0]
