@@ -16,3 +16,10 @@ for i in range(len(state_names)):
     state_county_tuples.append((state_names[i], county_names[i]))
 state_county_tuples  
 
+Use the zip() function to generate the same output created in Task 1b.
+
+Use state_names and county_names to:
+Create a new list of tuples, where each tuple contains a pair of state name and county name.
+Assign the new list to a variable called state_county_zipped.
+Check that state_county_zipped is the same as state_county_tuples.
+
