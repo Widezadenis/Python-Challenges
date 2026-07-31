@@ -34,4 +34,6 @@ Print the result.
 state_county_lists = [list(x) for x in state_county_tuples]
 state_county_lists
 
+Write a loop that unpacks each tuple in state_county_tuples and, if the state in the tuple is California, add the corresponding county to a list called ca_counties.
+
 
