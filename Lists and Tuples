@@ -6,3 +6,8 @@ county_names - a list of each county in the county_name column in the table abov
 state_names = [Arizona, California, California, Kentucky, Louisiana]
 county_names = [Maricopa, Alameda, Sacramento, Jefferson, East Baton Rouge]
 
+Use state_names and county_names to:
+Create a new list of tuples, where each tuple contains a pair of state name and county name.
+Assign the new list to a variable called state_county_tuples.
+Print the result
+
