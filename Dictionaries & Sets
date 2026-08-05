@@ -36,3 +36,6 @@ def county_counter(state):
         else:
             county_dict[county] = 1
     return county_dict
+
+Use the county_counter() function to calculate how many AQI readings were from Washington County, Pennsylvania.
+len(county_counter('Washington'))
