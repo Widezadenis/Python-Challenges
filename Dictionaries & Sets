@@ -52,3 +52,13 @@ for state in aqi_dict.keys():
     counties = list(county_counter(state).keys())
     all_counties += counties
 len(all_counties)
+
+Use all_counties and your knowledge of sets and list methods to determine how many counties share names.
+shared_count = 0 
+
+for county in set(all_counties): 
+    count = all_counties.count(county)
+    if count > 1: 
+        shared_count += count
+        
+shared_count
