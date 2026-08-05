@@ -39,3 +39,6 @@ def county_counter(state):
 
 Use the county_counter() function to calculate how many AQI readings were from Washington County, Pennsylvania.
 len(county_counter('Washington'))
+
+Use the county_counter function to obtain a list of all the different counties in the state of Indiana.
+county_counter('Indiana').keys()
