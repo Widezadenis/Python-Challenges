@@ -19,7 +19,7 @@ for state, county, aqi in epa_tuples:
 aqi_dict['Florida']
 
 Calculate the number of readings that were recorded in the state of Arizona.
+len(aqi_dict['Arizona'])
 
 Use your Python skills to calculate the mean of the AQI readings that were recorded in the state of California. Note that there are many different approaches you can take. Be creative!
-
 len(aqi_dict['Arizona'])
