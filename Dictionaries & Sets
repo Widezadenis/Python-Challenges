@@ -23,3 +23,7 @@ len(aqi_dict['Arizona'])
 
 Use your Python skills to calculate the mean of the AQI readings that were recorded in the state of California. Note that there are many different approaches you can take. Be creative!
 len(aqi_dict['Arizona'])
+
+Define a function called county_counter that takes one argument:
+state - a string of the name of a U.S. state
+Return county_dict - a dictionary object whose keys are counties of the state given in the function's argument. For each county key, the corresponding value should be the count of the number of times that county is represented in the AQI data for that state.
