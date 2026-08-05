@@ -27,3 +27,12 @@ len(aqi_dict['Arizona'])
 Define a function called county_counter that takes one argument:
 state - a string of the name of a U.S. state
 Return county_dict - a dictionary object whose keys are counties of the state given in the function's argument. For each county key, the corresponding value should be the count of the number of times that county is represented in the AQI data for that state.
+
+def county_counter(state):
+    county_dict = {}
+    for county, aqi in aqi_dict[state]:
+        if county in county_dict:
+            county_dict[county] += 1
+        else:
+            county_dict[county] = 1
+    return county_dict
