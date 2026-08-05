@@ -42,3 +42,7 @@ len(county_counter('Washington'))
 
 Use the county_counter function to obtain a list of all the different counties in the state of Indiana.
 county_counter('Indiana').keys()
+
+Use aqi_dict and county_counter() to construct a list of every county from every state.
+Assign the result to a variable called all_counties.
+Find the length of all_counties.
