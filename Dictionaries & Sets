@@ -17,3 +17,5 @@ for state, county, aqi in epa_tuples:
         aqi_dict[state] = [(county, aqi)]
 
 aqi_dict['Florida']
+
+len(aqi_dict['Arizona'])
