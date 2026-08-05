@@ -1,3 +1,10 @@
 Convert state_list, county_list, and aqi_list to a list of tuples, where each tuple contains information for a single record: (state, county, aqi).
 Assign the result to a variable called epa_tuples.
 
+epa_tuples = [
+    ('Arizona', 'Maricopa', 9),
+    ('California', 'Alameda', 11),
+    ('California', 'Sacramento', 35),
+    ('Kentucky', 'Jefferson', 35),
+    ('Louisiana', 'East Baton Rouge', 35),
+]
