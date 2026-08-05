@@ -1,16 +1,11 @@
 Convert state_list, county_list, and aqi_list to a list of tuples, where each tuple contains information for a single record: (state, county, aqi).
 Assign the result to a variable called epa_tuples.
 
-epa_tuples = [
-    ('Arizona', 'Maricopa', 9),
-    ('California', 'Alameda', 11),
-    ('California', 'Sacramento', 35),
-    ('Kentucky', 'Jefferson', 35),
-    ('Louisiana', 'East Baton Rouge', 35),
-]
+epa_tuples = list(zip(state_list, county_list, aqi_list))
 
 Now that you have a list of tuples containing AQI records, use it to create a dictionary that allows you to look up a state and get all the county-AQI pairs associated with that state.
 Create a dictionary called aqi_dict:
 Use a loop to unpack information from each tuple in epa_tuples.
 Your dictionary's keys should be states.
 The value at each key should be a list of tuples, where each tuple is a county-AQI pair of a record from a given state.
+
