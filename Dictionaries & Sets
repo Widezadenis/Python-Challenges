@@ -45,4 +45,10 @@ county_counter('Indiana').keys()
 
 Use aqi_dict and county_counter() to construct a list of every county from every state.
 Assign the result to a variable called all_counties.
-Find the length of all_counties.
+Find the length of all_counties.'
+
+all_counties = []
+for state in aqi_dict.keys():
+    counties = list(county_counter(state).keys())
+    all_counties += counties
+len(all_counties)
