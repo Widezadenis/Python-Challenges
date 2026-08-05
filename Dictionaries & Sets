@@ -18,4 +18,6 @@ for state, county, aqi in epa_tuples:
 
 aqi_dict['Florida']
 
+Calculate the number of readings that were recorded in the state of Arizona.
+
 len(aqi_dict['Arizona'])
