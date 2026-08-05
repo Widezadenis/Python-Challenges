@@ -1,1 +1,3 @@
+Convert state_list, county_list, and aqi_list to a list of tuples, where each tuple contains information for a single record: (state, county, aqi).
+Assign the result to a variable called epa_tuples.
 
