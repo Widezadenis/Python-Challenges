@@ -1,3 +1,5 @@
 Import NumPy using its standard alias.
 
 import numpy as np
+
+Create an array of AQI data
