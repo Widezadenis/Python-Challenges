@@ -1,1 +1,3 @@
+Import NumPy using its standard alias.
 
+import numpy as np
