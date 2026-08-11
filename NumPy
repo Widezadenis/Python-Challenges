@@ -19,3 +19,8 @@ print(aqi_array[:5])
 Maximum value
 print("Max =", aqi_array.max())
 
+Minimum value
+print("Min =", aqi_array.min())
+
+
+
