@@ -3,3 +3,7 @@ Import NumPy using its standard alias.
 import numpy as np
 
 Create an array of AQI data
+import ada_c2_labs as lab
+aqi_list = lab.fetch_epa('aqi')
+
+
