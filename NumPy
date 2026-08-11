@@ -34,3 +34,5 @@ Use a comparison statement to get an array of Boolean values that is the same le
 boolean_aqi = (aqi_array <=5)
 
 Calculate the number of True values in the boolean_aqi and divide this number by the total number of values in the array. Assign the result to a variable named percent_under_6 and print it.
+percent_under_6 = np.count_nonzero(boolean_aqi == True) / 1725
+print(percent_under_6)
