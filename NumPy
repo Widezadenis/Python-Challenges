@@ -6,4 +6,7 @@ Create an array of AQI data
 import ada_c2_labs as lab
 aqi_list = lab.fetch_epa('aqi')
 
+Use a NumPy function to convert the list to an ndarray. Assign the result to a variable called aqi_array.
+aqi_array = np.array(aqi_list)
+
 
