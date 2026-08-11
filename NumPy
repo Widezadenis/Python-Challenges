@@ -22,7 +22,8 @@ print("Max =", aqi_array.max())
 Minimum value
 print("Min =", aqi_array.min())
 
-
+Median value
+print('Median =', np.median(aqi_array))
 
 Standard deviation
 print("Std =", aqi_array.std())
