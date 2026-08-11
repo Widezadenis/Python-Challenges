@@ -30,3 +30,5 @@ print("Std =", aqi_array.std())
 
 3. Calculate the percentage of AQI readings that are considered cleanest:
 Use a comparison statement to get an array of Boolean values that is the same length as aqi_array. Assign the result to variable called boolean_aqi.
+
+boolean_aqi = (aqi_array <=5)
