@@ -24,3 +24,5 @@ print("Min =", aqi_array.min())
 
 
 
+Standard deviation
+print("Std =", aqi_array.std())
