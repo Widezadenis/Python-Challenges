@@ -16,4 +16,6 @@ Print the first five elements of aqi_array.
 print(aqi_array[:5])
 
 2. Use built-in NumPy functions to print the following values from aqi_array:
+Maximum value
+print("Max =", aqi_array.max())
 
