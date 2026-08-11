@@ -1,4 +1,4 @@
-Import NumPy using its standard alias.
+1. Import NumPy using its standard alias.
 
 import numpy as np
 
@@ -15,4 +15,4 @@ print(len(aqi_array))
 Print the first five elements of aqi_array.
 print(aqi_array[:5])
 
-
+2. 
