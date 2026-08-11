@@ -28,4 +28,4 @@ print('Median =', np.median(aqi_array))
 Standard deviation
 print("Std =", aqi_array.std())
 
-3. 
+3. Calculate the percentage of AQI readings that are considered cleanest:
