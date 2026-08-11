@@ -12,4 +12,7 @@ aqi_array = np.array(aqi_list)
 Print the length of aqi_array
 print(len(aqi_array))
 
+Print the first five elements of aqi_array.
+print(aqi_array[:5])
+
 
