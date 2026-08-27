@@ -6,5 +6,6 @@ import pandas as pd
 
 1b: Read in the first file
 1. download the .csv file
+top3 = pd.read_csv('epa_ca_tx_pa.csv')
 
 
