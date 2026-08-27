@@ -20,3 +20,4 @@ print(top3.info())
 2b: Summary statistics
 Examine the summary statistics of the dataframe's numeric columns. The output should be 
 a table that includes row count, mean, standard deviation, min, max, and quartile values.
+print(top3.describe())
