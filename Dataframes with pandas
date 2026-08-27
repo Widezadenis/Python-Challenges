@@ -33,7 +33,10 @@ rows there are for each state in the dataframe.
 print(top3.value_counts('state_name'))
 
 3b: Sort by AQI
-Create a new dataframe called top3_sorted by using the sort_values() method on the top3 dataframe. Refer to the sort_values pandas documentation for more information about how to use this method.
+1. Create a new dataframe called top3_sorted by using the sort_values() method on the top3 dataframe. Refer to the sort_values pandas documentation for more information about how to use this method.
 The new dataframe should contain the data sorted by AQI, beginning with the rows with the highest AQI values.
 
 top3_sorted = top3.sort_values(by="aqi", ascending=False)
+
+2. Print the top 10 rows of top3_sorted
+
