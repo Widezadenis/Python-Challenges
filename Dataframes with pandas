@@ -39,4 +39,4 @@ The new dataframe should contain the data sorted by AQI, beginning with the rows
 top3_sorted = top3.sort_values(by="aqi", ascending=False)
 
 2. Print the top 10 rows of top3_sorted
-
+print(top3_sorted.head(10))
