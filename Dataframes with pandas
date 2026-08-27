@@ -16,3 +16,7 @@ Use a DataFrame method to examine the number of rows and columns, the column nam
 the data type contained in each column, the number of non-null values in each column, 
 and the amount of memory the dataframe uses.
 print(top3.info())
+
+2b: Summary statistics
+Examine the summary statistics of the dataframe's numeric columns. The output should be 
+a table that includes row count, mean, standard deviation, min, max, and quartile values.
