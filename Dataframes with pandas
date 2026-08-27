@@ -2,4 +2,4 @@
 Import numpy and pandas. Use their standard aliases.
 
 import numpy as np 
-
+import pandas as pd
