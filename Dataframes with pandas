@@ -44,4 +44,4 @@ print(top3_sorted.head(10))
 3c: Use iloc to select rows¶
 Use iloc to select the two rows at indices 10 and 11 of the top3_sorted dataframe.
 
-
+print(top3_sorted.iloc[[10, 11]])
