@@ -11,3 +11,8 @@ top3 = pd.read_csv('epa_ca_tx_pa.csv')
 2. Use the head() method on the top3 dataframe to inspect the first five rows
 print(top3.head())
 
+2a: Metadata
+Use a DataFrame method to examine the number of rows and columns, the column names, 
+the data type contained in each column, the number of non-null values in each column, 
+and the amount of memory the dataframe uses.
+print(top3.info())
