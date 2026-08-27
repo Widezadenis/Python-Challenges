@@ -6,6 +6,7 @@ import pandas as pd
 
 1b: Read in the first file
 1. download the .csv file
+
 top3 = pd.read_csv('epa_ca_tx_pa.csv')
 
 2. Use the head() method on the top3 dataframe to inspect the first five rows
