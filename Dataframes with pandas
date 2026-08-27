@@ -25,3 +25,9 @@ Examine the summary statistics of the dataframe's numeric columns. The output sh
 a table that includes row count, mean, standard deviation, min, max, and quartile values.
 
 print(top3.describe())
+
+3a: Rows per state
+Select the state_name column and use the value_counts() method on it to check how many 
+rows there are for each state in the dataframe.
+
+print(top3.value_counts('state_name'))
