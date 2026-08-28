@@ -81,3 +81,6 @@ print(la_data)
 
 Task 5: Groupby
 Group the original dataframe (top3) by state and calculate the mean AQI for each state.
+
+state_aqi = top3.groupby('state_name')['aqi'].mean()
+print(state_aqi)
