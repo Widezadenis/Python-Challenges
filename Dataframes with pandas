@@ -45,3 +45,10 @@ print(top3_sorted.head(10))
 Use iloc to select the two rows at indices 10 and 11 of the top3_sorted dataframe.
 
 print(top3_sorted.iloc[[10, 11]])
+
+4a: Basic Boolean masking
+1. Create a Boolean mask that selects only the observations of the top3_sorted dataframe that are from California.
+
+mask = top3_sorted['state_name'] == 'California'
+
+
