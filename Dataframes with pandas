@@ -102,3 +102,8 @@ combined_df
 
 Verify that the length of combined_df is equal to the sum of the lengths of top3 and other_states
 print(combined_df.info())
+
+Task 7: Complex Boolean masking
+According to the EPA, AQI values of 51-100 are considered of "Moderate" concern. You've been tasked with examining some data for the state of Washington.
+
+Use Boolean masking to return the rows that represent data from the state of Washington with AQI values of 51+
