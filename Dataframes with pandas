@@ -51,4 +51,7 @@ print(top3_sorted.iloc[[10, 11]])
 
 mask = top3_sorted['state_name'] == 'California'
 
+2. Apply the Boolean mask to the top3_sorted dataframe and assign the result to a variable called ca_df.
+
+ca_df = top3_sorted[mask]
 
