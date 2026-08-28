@@ -99,3 +99,6 @@ Add the data from other_states as new rows beneath the data from top3. Assign th
 
 combined_df = pd.concat([top3, other_states], axis=0)
 combined_df
+
+Verify that the length of combined_df is equal to the sum of the lengths of top3 and other_states
+print(combined_df.info())
