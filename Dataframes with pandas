@@ -76,8 +76,8 @@ next-most-represented county in California, and you want to learn more about it.
 
 Calculate the mean AQI for LA county
 
-la_data = ca_df.groupby('county_name')['aqi'].mean() 
-print(la_data)
+mask = ca_df['county_name'] == 'Los Angeles'
+ca_df[mask]['aqi'].mean()
 
 Task 5: Groupby
 Group the original dataframe (top3) by state and calculate the mean AQI for each state.
