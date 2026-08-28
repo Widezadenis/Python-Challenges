@@ -55,3 +55,5 @@ mask = top3_sorted['state_name'] == 'California'
 
 ca_df = top3_sorted[mask]
 
+3. Print the first five rows of ca_df.
+print(ca_df.head())
