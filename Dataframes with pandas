@@ -107,3 +107,7 @@ Task 7: Complex Boolean masking
 According to the EPA, AQI values of 51-100 are considered of "Moderate" concern. You've been tasked with examining some data for the state of Washington.
 
 Use Boolean masking to return the rows that represent data from the state of Washington with AQI values of 51+
+
+masks = (other_states['state_name'] == 'Washington') & (other_states['aqi'] >= 51) 
+washington_aqi = other_states[masks] 
+print(washington_aqi)
