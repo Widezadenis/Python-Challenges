@@ -63,3 +63,6 @@ Inspect the shape of your new ca_df dataframe. Does its row count match the numb
 California rows determined in Task 3a?
 
 print(ca_df.shape)
+
+4c: Rows per CA county
+Examine a list of the number of times each county is represented in the California data.
