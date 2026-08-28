@@ -57,3 +57,8 @@ ca_df = top3_sorted[mask]
 
 3. Print the first five rows of ca_df.
 print(ca_df.head())
+
+4b: Validate CA data
+Inspect the shape of your new ca_df dataframe. Does its row count match the number of 
+California rows determined in Task 3a?
+
