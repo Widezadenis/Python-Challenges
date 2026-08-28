@@ -91,3 +91,11 @@ other_states = pd.read_csv('epa_others.csv')
 
 Use the head() method on the other_states dataframe to inspect the first five rows.
 print(other_states.head())
+
+6b: Concatenate the data
+The data from other_states is in the same format as the data from top3. It has the same columns in the same order.
+
+Add the data from other_states as new rows beneath the data from top3. Assign the result to a new dataframe called combined_df.
+
+combined_df = pd.concat([top3, other_states], axis=0)
+combined_df
