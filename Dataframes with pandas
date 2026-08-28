@@ -90,3 +90,4 @@ Read in the data for the remaining territories. The file is called 'epa_others.c
 other_states = pd.read_csv('epa_others.csv')
 
 Use the head() method on the other_states dataframe to inspect the first five rows.
+print(other_states.head())
