@@ -66,3 +66,6 @@ print(ca_df.shape)
 
 4c: Rows per CA county
 Examine a list of the number of times each county is represented in the California data.
+
+county_list = ca_df['county_name'].value_counts()
+print(county_list)
