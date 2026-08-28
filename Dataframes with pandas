@@ -101,7 +101,7 @@ combined_df = pd.concat([top3, other_states], axis=0)
 combined_df
 
 Verify that the length of combined_df is equal to the sum of the lengths of top3 and other_states
-print(combined_df.info())
+len(combined_df) == len(top3) + len(other_states)
 
 Task 7: Complex Boolean masking
 According to the EPA, AQI values of 51-100 are considered of "Moderate" concern. You've been tasked with examining some data for the state of Washington.
