@@ -62,3 +62,4 @@ print(ca_df.head())
 Inspect the shape of your new ca_df dataframe. Does its row count match the number of 
 California rows determined in Task 3a?
 
+print(ca_df.shape)
