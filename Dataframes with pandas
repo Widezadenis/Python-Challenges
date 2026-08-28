@@ -84,3 +84,9 @@ Group the original dataframe (top3) by state and calculate the mean AQI for each
 
 state_aqi = top3.groupby('state_name')['aqi'].mean()
 print(state_aqi)
+
+6a: Read in the second file
+Read in the data for the remaining territories. The file is called 'epa_others.csv' and is already in your working directory. Assign the resulting dataframe to a variable named other_states.
+other_states = pd.read_csv('epa_others.csv')
+
+Use the head() method on the other_states dataframe to inspect the first five rows.
