@@ -69,3 +69,12 @@ Examine a list of the number of times each county is represented in the Californ
 
 county_list = ca_df['county_name'].value_counts()
 print(county_list)
+
+4d: Calculate mean AQI for Los Angeles county
+You notice that Los Angeles county has more than twice the number of rows of the 
+next-most-represented county in California, and you want to learn more about it.
+
+Calculate the mean AQI for LA county
+
+la_data = ca_df.groupby('county_name')['aqi'].mean() 
+print(la_data)
