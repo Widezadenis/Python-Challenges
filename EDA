@@ -2,3 +2,4 @@
 First, import relevant Python libraries and modules. Use the pandas library and the matplotlib.pyplot module.
 
 import pandas as pd
+import numpy as np
