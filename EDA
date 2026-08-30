@@ -9,5 +9,7 @@ import matplotlib.pyplot as plt
 companies = pd.read_csv("Unicorn_Companies.csv")
 
 Step 2: Data exploration
+Display the first 10 rows of the data
+
 
 
