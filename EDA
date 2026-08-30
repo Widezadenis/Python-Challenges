@@ -7,3 +7,7 @@ import matplotlib.pyplot as plt
 
 1b. Load the dataset into a DataFrame
 companies = pd.read_csv("Unicorn_Companies.csv")
+
+Step 2: Data exploration
+
+
