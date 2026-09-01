@@ -17,3 +17,4 @@ companies.size
 
 1c. Identify the number of rows and columns in the dataset. The shape property that DataFrames have can help.
 companies.shape
+companies.shape
