@@ -22,3 +22,4 @@ companies.shape
 companies.info()
 
 3. Find descriptive statistics and structure your dataset. The describe() function from the pandas library can help. This function generates statistics for the numeric columns in a dataset.
+companies.describe()
