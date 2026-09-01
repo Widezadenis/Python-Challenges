@@ -27,5 +27,7 @@ companies.describe()
 3b. Use pd.to_datetime() to convert Date Joined column to datetime and Update the column with the converted values
 companies['Date Joined']= pd.to_datetime(companies['Date Joined'])
 
+3c. Use .info() to confirm that the update actually took place
+
 
 
