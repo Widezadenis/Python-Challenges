@@ -92,3 +92,16 @@ grouped = (companies_sample[["Industry", "valuation_billions"]]
            .sort_values(by="valuation_billions")
           )
 grouped
+
+# Create bar plot
+# with the various industries as the categories of the bars
+# and the maximum valuation for each industry as the height of the bars
+
+### YOUR CODE HERE ###
+plt.bar(x=companies_sampled['Industry'],height= companies_sampled['valuation_billions'], label="Maximum Valuation for Each Industry")
+
+plt.title("Maximum Valuation by Industry")
+plt.xlabel("Industry")
+plt.ylabel("Valuation (Billions)")
+plt.xticks(rotation=45, horizontalalignment='right')
+plt.show()
