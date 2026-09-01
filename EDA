@@ -15,8 +15,10 @@ companies.head(10)
 2b. Get a sense of how large the dataset is. The size property that DataFrames have can help.
 companies.size
 
-3c. Identify the number of rows and columns in the dataset. The shape property that DataFrames have can help.
+2c. Identify the number of rows and columns in the dataset. The shape property that DataFrames have can help.
 companies.shape
 
-4c. To further understand what the dataset entails, get basic information about the dataset, including the data type of values in each column. There is more than one way to approach this task. In this instance, use the info() function from pandas
+2c. To further understand what the dataset entails, get basic information about the dataset, including the data type of values in each column. There is more than one way to approach this task. In this instance, use the info() function from pandas
 companies.info()
+
+3. Find descriptive statistics and structure your dataset. The describe() function from the pandas library can help. This function generates statistics for the numeric columns in a dataset.
