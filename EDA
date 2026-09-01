@@ -19,4 +19,4 @@ companies.size
 companies.shape
 
 4c. To further understand what the dataset entails, get basic information about the dataset, including the data type of values in each column. There is more than one way to approach this task. In this instance, use the info() function from pandas
-
+companies.info()
