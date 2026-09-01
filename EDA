@@ -35,3 +35,6 @@ companies['Year'] = companies['Date Joined'].dt.year
 
 3e. Use .head() to confirm that the new column did get added
 companies.head()
+
+4. Use sample() with the n parameter set to 50 to randomly sample 50 unicorn companies from the data. Be sure to specify the random_state parameter to ensure reproducibility of your work. Save the result to a variable called companies_sampled.
+
