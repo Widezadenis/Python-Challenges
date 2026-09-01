@@ -30,3 +30,4 @@ companies['Date Joined']= pd.to_datetime(companies['Date Joined'])
 3c. Use .info() to confirm that the update actually took place
 comapnies.info()
 
+3d. Use .dt.year to extract year component from Date Joined column and add the result as a new column named Year Joined to the DataFrame
