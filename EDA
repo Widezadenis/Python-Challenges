@@ -12,4 +12,5 @@ Step 2: Data exploration
 Display the first 10 rows of the data
 companies.head(10)
 
+Get a sense of how large the dataset is. The size property that DataFrames have can help.
 
