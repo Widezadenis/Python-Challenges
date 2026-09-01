@@ -23,3 +23,8 @@ companies.info()
 
 3. Find descriptive statistics and structure your dataset. The describe() function from the pandas library can help. This function generates statistics for the numeric columns in a dataset.
 companies.describe()
+
+3b. Use pd.to_datetime() to convert Date Joined column to datetime 
+companies['Date Joined']= pd.to_datetime(companies['Date Joined'])
+
+3c. Update the column with the converted values
