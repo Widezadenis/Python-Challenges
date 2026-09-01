@@ -9,10 +9,11 @@ import matplotlib.pyplot as plt
 companies = pd.read_csv("Unicorn_Companies.csv")
 
 Step 2: Data exploration
-Display the first 10 rows of the data
+1a. Display the first 10 rows of the data
 companies.head(10)
 
-Get a sense of how large the dataset is. The size property that DataFrames have can help.
+1b. Get a sense of how large the dataset is. The size property that DataFrames have can help.
 companies.size
 
-Identify the number of rows and columns in the dataset. The shape property that DataFrames have can help.
+1c. Identify the number of rows and columns in the dataset. The shape property that DataFrames have can help.
+companies.shape
