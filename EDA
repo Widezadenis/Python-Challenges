@@ -84,3 +84,11 @@ companies_sampled['valuation_billions'] = companies_sampled['valuation_billions'
 # Convert column to type int
 companies_sampled['valuation_billions'] = companies_sampled['valuation_billions'].astype('int')
 companies_sampled.head() 
+
+# Prepare data for modeling
+grouped = (companies_sample[["Industry", "valuation_billions"]]
+           .groupby("Industry")
+           .max()
+           .sort_values(by="valuation_billions")
+          )
+grouped
