@@ -42,10 +42,35 @@ companies_sample = companies.sample(n = 50, random_state = 42)
 Visualize the longest time it took companies to reach unicorn status for each industry represented in the sample. To create a bar plot to visualize this, use the bar() function from the matplotlib.pyplot module. You'll first need to prepare the data.
 companies_sample["years_till_unicorn"] = companies_sample["Year"] - companies_sample["Year Founded"]
 
+companies_sampled["years_till_unicorn"] = companies_sampled["Year"] - companies_sampled["Year Founded"]
+
 # Group the data by `Industry`. For each industry, get the max value in the `years_till_unicorn` column.
-grouped = (companies_sample[["Industry", "years_till_unicorn"]]
+grouped = (companies_sampled[["Industry", "years_till_unicorn"]]
            .groupby("Industry")
            .max()
            .sort_values(by="years_till_unicorn")
           )
 grouped
+
+# with Industry column as the categories of the bars
+# and the difference in years between Year Joined column and Year Founded column as the heights of the bars
+
+plt.bar(grouped.index, grouped["years_till_unicorn"])
+
+# Set title
+
+plt.title("Bar plot of maximum years taken by company to become unicorn per industry (from sample)")
+
+# Set x-axis label
+
+plt.xlabel("Industry")
+
+# Set y-axis label
+
+plt.ylabel("Maximum number of years")
+
+# Rotate labels on the x-axis as a way to avoid overlap in the positions of the text  
+
+plt.xticks(rotation=45, horizontalalignment='right')
+
+plt.show()
