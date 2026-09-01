@@ -34,3 +34,4 @@ comapnies.info()
 companies['Year'] = companies['Date Joined'].dt.year
 
 3e. Use .head() to confirm that the new column did get added
+companies.head()
