@@ -37,4 +37,4 @@ companies['Year'] = companies['Date Joined'].dt.year
 companies.head()
 
 4. Use sample() with the n parameter set to 50 to randomly sample 50 unicorn companies from the data. Be sure to specify the random_state parameter to ensure reproducibility of your work. Save the result to a variable called companies_sampled.
-companies_sampled = companies.sample(50)
+companies_sample = companies.sample(n = 50, random_state = 42)
