@@ -76,3 +76,11 @@ plt.xticks(rotation=45, horizontalalignment='right')
 plt.show()
 
 Visualize unicorn companies' maximum valuation for each industry represented in the sample. To create a bar plot to visualize this, use the bar() function from the matplotlib.pyplot module. Before plotting, create a new column that represents the companies' valuations as numbers (instead of strings, as they're currently represented). Then, use this new column to plot your data.
+companies_sampled['valuation_billions'] = companies_sampled['Valuation']
+# Remove the '$' from each value
+companies_sampled['valuation_billions'] = companies_sampled['valuation_billions'].str.replace('$', '')
+# Remove the 'B' from each value
+companies_sampled['valuation_billions'] = companies_sampled['valuation_billions'].str.replace('B', '')
+# Convert column to type int
+companies_sampled['valuation_billions'] = companies_sampled['valuation_billions'].astype('int')
+companies_sampled.head() 
