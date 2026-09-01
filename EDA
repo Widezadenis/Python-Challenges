@@ -1,4 +1,4 @@
-1. Import libraries and packages¶
+1. Import libraries and packages
 First, import relevant Python libraries and modules. Use the pandas library and the matplotlib.pyplot module.
 
 import pandas as pd
