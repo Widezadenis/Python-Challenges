@@ -38,3 +38,14 @@ companies.head()
 
 4. Use sample() with the n parameter set to 50 to randomly sample 50 unicorn companies from the data. Be sure to specify the random_state parameter to ensure reproducibility of your work. Save the result to a variable called companies_sampled.
 companies_sample = companies.sample(n = 50, random_state = 42)
+
+Visualize the longest time it took companies to reach unicorn status for each industry represented in the sample. To create a bar plot to visualize this, use the bar() function from the matplotlib.pyplot module. You'll first need to prepare the data.
+companies_sample["years_till_unicorn"] = companies_sample["Year"] - companies_sample["Year Founded"]
+
+# Group the data by `Industry`. For each industry, get the max value in the `years_till_unicorn` column.
+grouped = (companies_sample[["Industry", "years_till_unicorn"]]
+           .groupby("Industry")
+           .max()
+           .sort_values(by="years_till_unicorn")
+          )
+grouped
