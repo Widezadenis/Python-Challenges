@@ -28,6 +28,5 @@ companies.describe()
 companies['Date Joined']= pd.to_datetime(companies['Date Joined'])
 
 3c. Use .info() to confirm that the update actually took place
-
-
+comapnies.info()
 
