@@ -34,4 +34,4 @@ companies['Date Joined'] = pd.to_datetime(companies['Date Joined'])
 companies.dtypes
 
 Create a Month Joined column
-
+companies['Month Joined'] = companies['Date Joined'].dt.month_name()
