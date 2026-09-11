@@ -5,3 +5,4 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 Load the dataset into a DataFrame
+companies = pd.read_csv("Unicorn_Companies.csv")
