@@ -26,5 +26,7 @@ Determine the number of companies founded each year
 companies.value_counts("Year Founded", ascending=False)
 
 Plot a histrogram of the Year Founded
+sns.histplot(data=companies, x='Year Founded')
+
 
 
