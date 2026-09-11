@@ -11,5 +11,5 @@ companies = pd.read_csv("Unicorn_Companies.csv")
 companies.head(10)
 
 Identify the number of rows and columns
-
+companies.shape
 
