@@ -27,6 +27,5 @@ companies.value_counts("Year Founded", ascending=False)
 
 Plot a histrogram of the Year Founded
 sns.histplot(data=companies, x='Year Founded')
-
-
+plt.title('Year Founded histogram');
 
