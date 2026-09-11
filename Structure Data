@@ -24,3 +24,7 @@ companies.sort_values(by=["Year Founded"], ascending=False).head(10)
 
 Determine the number of companies founded each year 
 companies.value_counts("Year Founded", ascending=False)
+
+Plot a histrogram of the Year Founded
+
+
