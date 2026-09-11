@@ -32,3 +32,6 @@ plt.title('Year Founded histogram');
 Convert the Date Joined column to datetime
 companies['Date Joined'] = pd.to_datetime(companies['Date Joined'])
 companies.dtypes
+
+Create a Month Joined column
+
