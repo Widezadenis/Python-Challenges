@@ -8,3 +8,4 @@ Load the dataset into a DataFrame
 companies = pd.read_csv("Unicorn_Companies.csv")
 
 2. Display the first 10 rows of the data
+
