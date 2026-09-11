@@ -13,3 +13,4 @@ companies.head(10)
 Identify the number of rows and columns
 companies.shape
 
+Check for duplicates in the data
