@@ -29,3 +29,4 @@ Plot a histrogram of the Year Founded
 sns.histplot(data=companies, x='Year Founded')
 plt.title('Year Founded histogram');
 
+Convert the Date Joined column to datetime
