@@ -18,3 +18,7 @@ companies.drop_duplicates().shape
 
 Display the data types of the columns
 companies.dtypes
+
+Sort the data by year funded and display the top 10 rows
+
+
