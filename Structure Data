@@ -35,3 +35,4 @@ companies.dtypes
 
 Create a Month Joined column
 companies['Month Joined'] = companies['Date Joined'].dt.month_name()
+companies.head()
