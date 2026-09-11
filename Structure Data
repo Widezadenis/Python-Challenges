@@ -30,3 +30,4 @@ sns.histplot(data=companies, x='Year Founded')
 plt.title('Year Founded histogram');
 
 Convert the Date Joined column to datetime
+companies['Date Joined'] = pd.to_datetime(companies['Date Joined'])
