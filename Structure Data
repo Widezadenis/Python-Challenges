@@ -15,3 +15,4 @@ companies.shape
 
 Check for duplicates in the data
 companies.drop_duplicates().shape
+
