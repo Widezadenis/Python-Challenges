@@ -38,3 +38,4 @@ companies['Month Joined'] = companies['Date Joined'].dt.month_name()
 companies.head()
 
 Create a Years to Join column
+companies['Years To Join'] = companies['Date Joined'].dt.year - companies["Year Founded"]
