@@ -40,3 +40,6 @@ companies.head()
 Create a Years to Join column
 companies['Years To Join'] = companies['Date Joined'].dt.year - companies["Year Founded"]
 companies.head()
+
+Filter to get more insights on a specific year
+
