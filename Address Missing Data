@@ -10,7 +10,10 @@ import seaborn as sns
 Load the dataset
 df_companies = pd.read_csv("Unicorn_Companies.csv")
 
-### 2. Data Exploration
+2. Data Exploration
+Display top rows
+
+
 
 
 
