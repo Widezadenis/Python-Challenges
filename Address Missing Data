@@ -45,3 +45,5 @@ mask.tail()
 Apply the `any()` method to `mask` and assign the results back to `mask
 mask = mask.any(axis=1)
 mask.head()
+
+Apply `mask` as a Boolean mask to `df_companies` and assign results to `df_missing_rows`
