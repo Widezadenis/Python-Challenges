@@ -74,3 +74,6 @@ print(f'Percentage removed, columns: {col_percent:.3f}')
 
 Fill missing values using the 'fillna()' method, back-filling
 df_companies_backfill = df_companies.fillna(method='backfill')
+
+Show the rows that previously had missing values
+df_companies_backfill.iloc[df_missing_rows.index, :]
