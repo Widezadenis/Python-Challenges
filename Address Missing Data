@@ -15,7 +15,7 @@ Display top rows
 
 df_companies.head(10)
 
-Statistical properties of the dataset
+Statistical properties of the dataset: range, data types, mean values, and shape
 shape: df_companies.shape
 
 
