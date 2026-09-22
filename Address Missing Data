@@ -36,3 +36,5 @@ df_companies[['Valuation', 'valuation_num']].head()
 Find the number of missing values in each column in this dataset
 valuation_num = df_companies.isna().sum()
 valuation_num.head()
+
+Review rows with missing values
