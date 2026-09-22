@@ -32,3 +32,7 @@ def str_to_num(x):
 Apply the `str_to_num()` function to the `Valuation` column and assign the result back to a new column called `valuation_num`
 df_companies['valuation_num'] = df_companies['Valuation'].apply(str_to_num)
 df_companies[['Valuation', 'valuation_num']].head()
+
+Find the number of missing values in each column in this dataset
+valuation_num = df_companies.isna().sum()
+valuation_num.head()
