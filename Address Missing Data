@@ -71,3 +71,6 @@ print(f'Percentage removed, rows: {row_percent:.3f}')
 Percentage of values removed by dropping columns.
 col_percent = ((count_total - count_dropna_columns) / count_total) * 100
 print(f'Percentage removed, columns: {col_percent:.3f}')
+
+Fill missing values using the 'fillna()' method, back-filling
+df_companies_backfill = df_companies.fillna(method='backfill')
