@@ -24,5 +24,6 @@ Data Preprocessing
 In what year was the oldest company founded?
 df_companies['Year Joined'] = pd.to_datetime(df_companies['Date Joined']).dt.year
 
+Calculate the sum of all valuations of companies from that country
 
 
