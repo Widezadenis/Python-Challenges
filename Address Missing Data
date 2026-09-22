@@ -57,3 +57,7 @@ count_total
 Drop the rows containing missing values, determine number of remaining values 
 count_dropna_rows = df_companies.dropna()
 count_dropna_rows
+
+Drop the columns containing missing values, determine number of remaining values
+count_dropna_columns = df_companies.dropna(axis=1)
+count_dropna_columns
