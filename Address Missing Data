@@ -7,6 +7,7 @@ import plotly.express as ex
 import seaborn as sns
 
 Load the dataset
+df_companies = pd.read_csv("Unicorn_Companies.csv")
 
 
 
