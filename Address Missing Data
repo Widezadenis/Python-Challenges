@@ -47,3 +47,4 @@ mask = mask.any(axis=1)
 mask.head()
 
 Apply `mask` as a Boolean mask to `df_companies` and assign results to `df_missing_rows`
+df_missing_rows = df_companies[mask]
