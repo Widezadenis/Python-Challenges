@@ -29,3 +29,5 @@ def str_to_num(x):
     x = x.strip('$B')
     x = int(x)
 
+Apply the `str_to_num()` function to the `Valuation` column and assign the result back to a new column called `valuation_num`
+
