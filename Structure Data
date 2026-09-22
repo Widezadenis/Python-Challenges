@@ -44,3 +44,4 @@ companies.head()
 Filter to get more insights on a specific year
 bool_mask = companies[companies['Date Joined'].dt.year ==2018]
 bool_mask.head()
+
