@@ -39,4 +39,4 @@ valuation_num.head()
 
 Review rows with missing values
 Apply the `isna()` method to the `df_companies` dataframe and assign back to `mask
-
+mask = df_companies.isna()
