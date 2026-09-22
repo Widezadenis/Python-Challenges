@@ -65,7 +65,9 @@ count_dropna_columns
 print the percentage of values removed by each method and compare them.
 
 Percentage of values removed by dropping rows.
-print(count_dropna_rows / count_total * 100)
+row_percent = ((count_total - count_dropna_rows) / count_total) * 100
+print(f'Percentage removed, rows: {row_percent:.3f}')
 
-# Percentage of values removed by dropping columns.
-print(count_dropna_columns / count_total * 100)
+Percentage of values removed by dropping columns.
+col_percent = ((count_total - count_dropna_columns) / count_total) * 100
+print(f'Percentage removed, columns: {col_percent:.3f}')
