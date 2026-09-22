@@ -1,3 +1,4 @@
+1. Imports: 
 Import libraries
 
 import numpy as np
@@ -8,6 +9,10 @@ import seaborn as sns
 
 Load the dataset
 df_companies = pd.read_csv("Unicorn_Companies.csv")
+
+###2. Data Exploration
+
+
 
 
 
