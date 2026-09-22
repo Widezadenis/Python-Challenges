@@ -18,6 +18,8 @@ df_companies.head(10)
 Statistical properties of the dataset: range, data types, mean values, and shape
 shape: df_companies.shape
 data types: companies.info()
+descriptive statistics(mean, standard deviation,range): df_companies.describe()
+
 
 
 
