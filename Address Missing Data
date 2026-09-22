@@ -53,3 +53,7 @@ Model building
 Store the total number of values in a variable called `count_total`
 count_total = df_companies.size
 count_total
+
+Drop the rows containing missing values, determine number of remaining values 
+count_dropna_rows = df_companies.dropna()
+count_dropna_rows
