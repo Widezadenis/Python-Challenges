@@ -25,3 +25,6 @@ companies['Years To Unicorn'].describe()
 
 Isolate any rows where `Years To Unicorn` is negative
 companies[companies['Years To Unicorn'] > 0]
+
+Replace InVision's `Year Founded` value with 2011
+companies.loc[companies['Company']=='InVision', 'Year Founded'] = 2011
