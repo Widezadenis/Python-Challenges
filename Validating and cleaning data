@@ -1,1 +1,5 @@
 1. Import relevant Python libraries and packages: numpy, pandas, seaborn, and pyplot from matplotlib.
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
