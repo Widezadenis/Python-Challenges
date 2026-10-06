@@ -42,3 +42,4 @@ industry_list = ['Artificial intelligence', 'Other','E-commerce & direct-to-cons
 
 Check which values are in `Industry` but not in `industry_list`
 set(companies['Industry']) - set(industry_list)
+
