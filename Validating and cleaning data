@@ -29,3 +29,6 @@ companies[companies['Years To Unicorn'] > 0]
 Replace InVision's `Year Founded` value with 2011
 companies.loc[companies['Company']=='InVision', 'Year Founded'] = 2011
 companies[companies['Company']=='InVision']
+
+Recalculate all values in the `Years To Unicorn` column
+companies['Years To Unicorn'] = companies['Date Joined'].dt.year - companies['Year Founded']
