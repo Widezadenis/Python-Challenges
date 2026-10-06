@@ -8,3 +8,7 @@ Load the dataset
 pd.set_option('display.max_columns', None)
 companies = pd.read_csv('Modified_Unicorn_Companies.csv')
 companies.head(5)
+
+2.Data Clening
+
+companies.dtypes
