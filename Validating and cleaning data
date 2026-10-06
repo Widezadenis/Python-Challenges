@@ -39,3 +39,6 @@ industry_list = ['Artificial intelligence', 'Other','E-commerce & direct-to-cons
        'Internet software & services','Supply chain, logistics, & delivery', 'Consumer & retail',\
        'Data management & analytics', 'Edtech', 'Health', 'Hardware','Auto & transportation', \
         'Travel', 'Cybersecurity','Mobile & telecommunications']
+
+Check which values are in `Industry` but not in `industry_list`
+set(companies['Industry']) - set(industry_list)
