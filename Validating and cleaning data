@@ -11,4 +11,5 @@ companies.head(5)
 
 2.Data Clening
 
+Display the data types of the columns.
 companies.dtypes
