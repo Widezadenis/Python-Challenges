@@ -9,7 +9,10 @@ pd.set_option('display.max_columns', None)
 companies = pd.read_csv('Modified_Unicorn_Companies.csv')
 companies.head(5)
 
-2.Data Clening
+2.Data Clening/Modify the data types
 
 Display the data types of the columns.
 companies.dtypes
+
+Apply necessary datatype conversions
+companies['Date Joined'] = pd.to_datetime(companies['Date Joined'])
