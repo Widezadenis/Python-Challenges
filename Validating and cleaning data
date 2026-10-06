@@ -9,7 +9,7 @@ pd.set_option('display.max_columns', None)
 companies = pd.read_csv('Modified_Unicorn_Companies.csv')
 companies.head(5)
 
-2.Data Clening/Modify the data types/Create a new column
+2.Data Clening/Modify the data types/Create a new column/Input validation
 
 Display the data types of the columns.
 companies.dtypes
@@ -20,3 +20,8 @@ companies['Date Joined'] = pd.to_datetime(companies['Date Joined'])
 Create the column Years To Unicorn
 companies['Years To Unicorn'] = companies['Date Joined'].dt.year - companies['Year Founded']
 
+Identify and correct the issue with Years To Unicorn
+companies['Years To Unicorn'].describe()
+
+Isolate any rows where `Years To Unicorn` is negative
+companies[companies['Years To Unicorn'] > 0]
